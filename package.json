@@ -20,7 +20,7 @@
     "url": "https://github.com/cleibp/stylus-css/issues"
   },
   "homepage": "https://github.com/cleibp/stylus-css#readme",
-  "dependencies": {
+  "devDependencies": {
     "stylus": "^0.61.0"
   }
 }
