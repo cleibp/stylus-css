@@ -26,12 +26,13 @@ Exemplificação do pré-processador CSS denominado STYLUS
 
 ```sh
 .
+├── .gitignore
 ├── README.md
 ├── index.html
-├── package.json
 ├── package-lock.json
-├── style.styl
-└── style.css
+├── package.json
+├── style.css
+└── style.styl
 ```
 
 ## 👋🏽 DEMO
