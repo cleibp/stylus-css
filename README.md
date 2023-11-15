@@ -26,6 +26,9 @@ Exemplificação do pré-processador CSS denominado STYLUS
 .
 ├── README.md
 ├── index.html
+├── package.json
+├── package-lock.json
+├── style.styl
 └── style.css
 ```
 
