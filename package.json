@@ -1,0 +1,26 @@
+{
+  "name": "stylus-css",
+  "version": "1.0.0",
+  "description": "stylus",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "stylus -w style.styl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cleibp/stylus-css.git"
+  },
+  "keywords": [
+    "stylus"
+  ],
+  "author": "Cleiton Paiva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cleibp/stylus-css/issues"
+  },
+  "homepage": "https://github.com/cleibp/stylus-css#readme",
+  "dependencies": {
+    "stylus": "^0.61.0"
+  }
+}
