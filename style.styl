@@ -1,0 +1,43 @@
+// Variables
+primary-color = #3498db
+footer-color = black
+
+// Mixin
+btn()
+  padding 10px 20px
+  border none
+  border-radius 5px
+  color #fff
+  background-color primary-color
+  text-decoration none
+  cursor pointer
+
+  &:hover
+    background-color darken(primary-color, 10%)
+
+// Use mixin
+.btn-pattern
+  btn()
+
+// Inherits from father
+btn-secondary
+  btn()
+  background-color #e74c3c
+
+// Aninhando
+header
+  background-color primary-color
+  color #fff
+  padding 20px
+
+  .btn-pattern
+    margin-top 10px
+
+footer
+  position absolute
+  background-color footer-color
+  color #fff
+  padding 10px
+  width 100%
+  height 100px
+  bottom 0
